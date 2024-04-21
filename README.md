@@ -1,3 +1,5 @@
+addworkersv3.sh
+
 ipList.csv format
 
 `WorkerName, URL, STAKE, PID`
