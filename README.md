@@ -1,4 +1,4 @@
-addworkersv3.sh
+add-worker-v3.sh
 
 ipList.csv format
 
