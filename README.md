@@ -1,5 +1,7 @@
 add-worker-v3.sh
 
+need add pool manually before using this
+
 ipList.csv format
 
 `WorkerName, URL, STAKE, PID`
