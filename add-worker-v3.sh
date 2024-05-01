@@ -7,7 +7,7 @@ for LINE in `cat ipList.csv`;do
 
 	DATARAW=$(echo '{"AddWorker":{"name":"'"${NAME}"'","endpoint":"'"${URL}"'","stake":"'"${STAKE}"'","pid":'${PID}',"sync_only":false,"disabled":false,"gatekeeper":false}}')
 	echo $DATARAW
-        curl 'http://127.0.0.1:3000/api/p/http%3A%2F%2F127.0.0.1%3A3001/wm/config' \
+        curl 'http://127.0.0.1:3001/wm/config' \
   -H 'Content-Type: application/json' \
   --data-raw ${DATARAW}
 
